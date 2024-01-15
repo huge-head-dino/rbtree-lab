@@ -1,4 +1,4 @@
-# Red-Black Tree 구현
+# Red-Black Tree구현
 
 Balanced search tree로 많이 쓰이는 Red-black tree (이하 RB tree)를 C 언어로 구현하는 과제입니다.
 구현하는 추상 자료형 (ADT: abstract data type)은 ordered set, multiset입니다.
