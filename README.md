@@ -9,7 +9,7 @@ Balanced search tree로 많이 쓰이는 Red-black tree (이하 RB tree)를 C언
 - tree = `new_tree()`: RB tree 구조체 생성
   - 여러 개의 tree를 생성할 수 있어야 하며 각각 다른 내용들을 저장할 수 있어야 합니다.
 - `delete_tree(tree)`: RB tree 구조체가 차지했던 메모리 반환
-  - 해당 tree가 사용했던 메모리를 전부 반환해야 합니다. (valgrind로 나타나지 않아야 함)
+  - 해당 tree가 사용했던 메모리를 전부 반환해야 합니다. (valgrind로 나타나지 않아야 함 )
 
 - `tree_insert(tree, key)`: key 추가
   - 구현하는 ADT가 multiset이므로 이미 같은 key의 값이 존재해도 하나 더 추가 합니다.
