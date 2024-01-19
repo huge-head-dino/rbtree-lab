@@ -17,7 +17,7 @@ Balanced search tree로 많이 쓰이는 Red-black tree (이하 RB tree)를 C언
   - RB tree내에 해당 key가 있는지 탐색하여 있으면 해당 node pointer 반환
   - 해당하는 node가 없으면 NULL 반환
 - `tree_erase(tree, ptr)`: RB tree 내부의 ptr로 지정된 node를 삭제하고 메모리 반환
-- ptr = `tree_min(tree)`: RB tree 중 최소 값을 가진 node pointer 반환
+- ptr = `tree_min(tree)`: RB tree 중 최소값을 가진 node pointer 반환
 - ptr = `tree_max(tree)`: 최대값을 가진 node pointer 반환
 
 - `tree_to_array(tree, array, n)`
